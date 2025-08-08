@@ -172,3 +172,60 @@ section {
   line-height: 126%; /* 20.02px */
   letter-spacing: 0.252px;
 }
+.collection .collection-btn {
+  margin-top: 30px;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+}
+.collection-btn .btn {
+  color: rgba(224, 44, 109, 0.87);
+  font-size: 13px;
+  font-weight: 700;
+  border: none;
+  display: flex;
+  gap: 10px;
+}
+/* feature styles */
+.feature {
+  justify-content: space-between;
+  align-items: center;
+}
+.feature .feature-image {
+  width: 37%;
+}
+.feature-image img {
+  width: 100%;
+}
+.feature .feature-content {
+  width: 55%;
+}
+.feature-content .feature-title {
+  color: #0a0826;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px; /* 157.895% */
+}
+.feature-content .feature-desc {
+  margin-top: 10px;
+  color: #6c6c6c;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px; /* 175% */
+}
+.feature-content .feature-btn {
+  margin-top: 16px;
+}
+.feature-btn .feature-btn-product {
+  background: #e02c6d;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  display: inline-flex;
+  padding: 10px 24px;
+  align-items: flex-start;
+  gap: 8px;
+  border: 0;
+  border-radius: 3px;
+}

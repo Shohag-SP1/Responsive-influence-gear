@@ -8,12 +8,15 @@
     align-items: center;
   }
   /* banner starts */
-  .banner {
+  .banner,
+  .feature {
     flex-direction: column-reverse;
     gap: 40px;
   }
   .banner .banner-content,
-  .banner-content .banner-image {
+  .banner-content .banner-image,
+  .feature .feature-image,
+  .feature .feature-content {
     width: 100%;
     text-align: center;
   }
