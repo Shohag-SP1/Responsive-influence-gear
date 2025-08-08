@@ -17,6 +17,10 @@
     width: 100%;
     text-align: center;
   }
+  /* collection stars */
+  .collection .collection-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 /* for tablet */
@@ -26,5 +30,9 @@
   }
   .nav-right ul li a {
     font-size: 10px;
+  }
+  /* collection starts */
+  .collection .collection-container {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
