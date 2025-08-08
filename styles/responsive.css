@@ -1,0 +1,29 @@
+@media screen and (max-width: 576px) {
+  .navbar,
+  .nav-right ul {
+    flex-direction: column;
+  }
+  .nav-right ul {
+    justify-content: center;
+    align-items: center;
+  }
+  /* banner starts */
+  .banner {
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+  .banner .banner-content,
+  .banner-content .banner-image {
+    width: 100%;
+  }
+}
+
+/* for tablet */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .nav-left .nav-title {
+    font-size: 16px;
+  }
+  .nav-right ul li a {
+    font-size: 10px;
+  }
+}
