@@ -15,6 +15,7 @@
   .banner .banner-content,
   .banner-content .banner-image {
     width: 100%;
+    text-align: center;
   }
 }
 

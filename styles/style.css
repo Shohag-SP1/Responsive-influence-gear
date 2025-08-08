@@ -20,6 +20,10 @@ body {
 .disflex {
   display: flex;
 }
+section {
+  margin-top: 75px;
+}
+/* navbar syles */
 .navbar {
   justify-content: space-between;
   align-items: center;
@@ -95,4 +99,15 @@ body {
 }
 .banner-image img {
   width: 100%;
+}
+/* main section styles */
+/* ecommerce styles */
+.ecommerce {
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.ecommerce > div {
+  flex-basis: 100px;
 }
